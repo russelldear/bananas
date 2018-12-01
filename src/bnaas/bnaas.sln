@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bnaas", "bnaas.csproj", "{993473CF-3FFE-4AC7-9460-CE9BBF9B9108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bnaas.test", "..\..\test\bnaas.test\bnaas.test.csproj", "{36E25022-B066-4B49-9C1B-2421275C6BAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{993473CF-3FFE-4AC7-9460-CE9BBF9B9108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993473CF-3FFE-4AC7-9460-CE9BBF9B9108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993473CF-3FFE-4AC7-9460-CE9BBF9B9108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993473CF-3FFE-4AC7-9460-CE9BBF9B9108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E25022-B066-4B49-9C1B-2421275C6BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E25022-B066-4B49-9C1B-2421275C6BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E25022-B066-4B49-9C1B-2421275C6BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E25022-B066-4B49-9C1B-2421275C6BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
