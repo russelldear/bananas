@@ -1,4 +1,7 @@
-﻿namespace bnaas
+﻿
+using Newtonsoft.Json;
+
+namespace bnaas
 {
     public class BandNameResult
     {
@@ -7,6 +10,7 @@
             BandName = bandName;
         }
 
+        [JsonProperty("bandname")]
         public string BandName { get; set; }
     }
 }

@@ -32,7 +32,7 @@ namespace bnaas.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var bandName = new BandNameResult(_bandNames[Random.Next(_bandNames.Count)]);
+            var bandName = new BandNameResult(_bandNames[Random.Next(_bandNames.Count)].Trim());
 
             if (Request.Headers.ContainsKey("Accept") && Request.Headers["Accept"].FirstOrDefault().Contains("text/html"))
             {
