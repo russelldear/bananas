@@ -16,6 +16,16 @@ namespace bnaas.Controllers
 
         private const string _htmlFormat = @"
         <html>
+          <head>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src=""https://www.googletagmanager.com/gtag/js?id=UA-138703092-1""></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){{dataLayer.push(arguments);}}
+              gtag('js', new Date());
+              gtag('config', 'UA-138703092-1');
+            </script>
+          </head>
           <body>
             <div style=""width: 300px; margin: 0 auto; text-align: center; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif"">
               <p><i>You should call your band...</i></p>
