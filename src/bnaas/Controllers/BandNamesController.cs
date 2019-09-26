@@ -27,7 +27,7 @@ namespace bnaas.Controllers
             </script>
           </head>
           <body>
-            <div style=""width: 300px; margin: 0 auto; text-align: center; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif"">
+            <div style=""width: 600px; margin: 0 auto; text-align: center; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif"">
               <p><i>You should call your band...</i></p>
               <h1>{0}</h1>
             </div>
