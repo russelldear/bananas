@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+       - cd src/bnaas
+       - ren peetwelve key.p12
+       - dotnet tool install --global Amazon.Lambda.Tools --version 3.2.3
+       - dotnet lambda deploy-function bnaas -function-role LambdaFullAccess
